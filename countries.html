@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Destinations — Japan, UK, Australia | EETC</title>
+<meta name="description" content="Detailed guides to studying in Japan (primary), the United Kingdom and Australia with Excel Education & Training Center." />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{colors:{'excel-green':'#5BAB2C','excel-green-dark':'#4a8f24','excel-dark':'#1F4D2C','excel-darker':'#143521','excel-black':'#0F1411','excel-light':'#f4faf0','excel-red':'#BC002D','excel-pink':'#FFB7C5'},fontFamily:{sans:['Inter','sans-serif'],display:['Poppins','sans-serif'],jp:['Noto Sans JP','sans-serif']}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800;900&family=Noto+Sans+JP:wght@500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" type="image/png" href="assets/img/logo.png" />
+</head>
+<body class="antialiased">
+
+<div class="bg-excel-darker text-white text-sm hidden md:block">
+  <div class="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
+    <div class="flex items-center gap-6">
+      <span><i class="fa-solid fa-phone mr-2 text-excel-green"></i>01409993773-4</span>
+      <span><i class="fa-solid fa-envelope mr-2 text-excel-green"></i>info@eetcbd.com</span>
+    </div>
+    <div class="flex items-center gap-3 text-white/80">
+      <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+
+<header id="site-header" class="sticky top-0 z-40 transition-all">
+  <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3"><img src="assets/img/logo.png" alt="EETC logo" class="h-12 w-auto" /></a>
+    <nav class="hidden lg:flex items-center gap-7">
+      <a class="nav-link" data-page="index" href="index.html">Home</a>
+      <a class="nav-link" data-page="about" href="about.html">About</a>
+      <div class="relative group">
+        <button class="nav-link  flex items-center gap-1">Services <i class="fa-solid fa-chevron-down text-xs"></i></button>
+        <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+          <div class="glass shadow-lg rounded-2xl w-64 p-2">
+            <a href="services.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm font-semibold">All Services</a>
+            <a href="student-visa.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">Student Visa (留学)</a>
+            <a href="job-visa.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">Job Visa</a>
+            <a href="ssw-visa.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">SSW Visa (特定技能)</a>
+            <a href="business-visa.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">Business Visa</a>
+          </div>
+        </div>
+      </div>
+      <div class="relative group">
+        <button class="nav-link  flex items-center gap-1">Courses <i class="fa-solid fa-chevron-down text-xs"></i></button>
+        <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+          <div class="glass shadow-lg rounded-2xl w-64 p-2">
+            <a href="japanese.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">Japanese (N5–N1)</a>
+            <a href="english.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">English / Pre-IELTS</a>
+          </div>
+        </div>
+      </div>
+      <div class="relative group">
+        <button class="nav-link active flex items-center gap-1">Destinations <i class="fa-solid fa-chevron-down text-xs"></i></button>
+        <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+          <div class="glass shadow-lg rounded-2xl w-64 p-2">
+            <a href="countries.html#japan" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">🇯🇵 Japan <span class="text-xs text-excel-green ml-1">Primary</span></a>
+            <a href="countries.html#uk" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">🇬🇧 United Kingdom</a>
+            <a href="countries.html#australia" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">🇦🇺 Australia</a>
+            <a href="countries.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm font-semibold mt-1 border-t border-gray-100 pt-2">Compare All</a>
+          </div>
+        </div>
+      </div>
+      <a class="nav-link" data-page="gallery" href="gallery.html">Gallery</a>
+      <a class="nav-link" data-page="faq" href="faq.html">FAQ</a>
+      <a class="nav-link" data-page="contact" href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="hidden lg:inline-flex btn-primary magnetic px-5 py-2.5 text-sm">Free Consultation <i class="fa-solid fa-arrow-right ml-2 text-xs"></i></a>
+    <button id="burger" class="lg:hidden text-2xl text-excel-dark"><i class="fa-solid fa-bars"></i></button>
+  </div>
+  <div id="mobile-menu" class="lg:hidden border-t border-gray-100 bg-white">
+    <div class="px-6 py-3 flex flex-col gap-3 text-sm">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <div class="text-xs uppercase tracking-wider text-gray-400 mt-2 font-semibold">Services</div>
+      <a class="nav-link" href="services.html">All Services</a>
+      <a class="nav-link" href="student-visa.html">Student Visa</a>
+      <a class="nav-link" href="job-visa.html">Job Visa</a>
+      <a class="nav-link" href="ssw-visa.html">SSW Visa</a>
+      <a class="nav-link" href="business-visa.html">Business Visa</a>
+      <div class="text-xs uppercase tracking-wider text-gray-400 mt-2 font-semibold">Courses</div>
+      <a class="nav-link" href="japanese.html">Japanese Language</a>
+      <a class="nav-link" href="english.html">English / Pre-IELTS</a>
+      <div class="text-xs uppercase tracking-wider text-gray-400 mt-2 font-semibold">Destinations</div>
+      <a class="nav-link" href="countries.html#japan">🇯🇵 Japan</a>
+      <a class="nav-link" href="countries.html#uk">🇬🇧 United Kingdom</a>
+      <a class="nav-link" href="countries.html#australia">🇦🇺 Australia</a>
+      <div class="text-xs uppercase tracking-wider text-gray-400 mt-2 font-semibold">More</div>
+      <a class="nav-link" href="gallery.html">Gallery</a>
+      <a class="nav-link" href="faq.html">FAQ</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section class="relative mesh-bg sakura-host text-white pt-16 pb-32 overflow-hidden">
+  <div class="blob b1" style="top:-10%; left:-5%;"></div>
+  <div class="blob b2" style="bottom:-15%; right:-5%;"></div>
+  <div class="absolute top-12 right-8 opacity-15 text-[10rem] font-jp font-black select-none hidden md:block leading-none">国々</div>
+
+  <div class="max-w-7xl mx-auto px-6 relative z-10 pt-12 text-center">
+    <span class="tag-glass">Destinations</span>
+    <h1 class="font-display text-5xl md:text-7xl font-extrabold mt-5 leading-[1.05]">Choose Your<br/><span class="text-gradient-light">Study Destination</span></h1>
+    <p class="font-jp text-2xl mt-4 text-white/85 font-bold">留学先を選ぶ</p>
+    <p class="text-white/80 mt-6 max-w-2xl mx-auto text-lg">Japan is our specialty — but we also support students applying to the UK and Australia.</p>
+
+    <div class="flex flex-wrap justify-center gap-3 mt-10">
+      <a href="#japan" class="btn-primary magnetic px-6 py-3">🇯🇵 Japan <span class="ml-2 text-xs bg-white/20 px-2 py-1 rounded-full">Primary</span></a>
+      <a href="#uk" class="btn-glass px-6 py-3">🇬🇧 United Kingdom</a>
+      <a href="#australia" class="btn-glass px-6 py-3">🇦🇺 Australia</a>
+    </div>
+  </div>
+
+  <svg class="absolute bottom-0 left-0 w-full" viewBox="0 0 1440 80" fill="none" preserveAspectRatio="none">
+    <path d="M0 50L48 45.7C96 41 192 32 288 28.3C384 25 480 27 576 33.3C672 40 768 50 864 50C960 50 1056 40 1152 36.7C1248 33 1344 37 1392 38.3L1440 40V80H0V50Z" fill="white"/>
+  </svg>
+</section>
+
+<!-- ============== JAPAN ============== -->
+<section id="japan" class="py-24 mesh-light relative overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 relative">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="reveal-left">
+        <div class="grid grid-cols-5 grid-rows-5 gap-3" style="aspect-ratio: 5/6;">
+          <div class="col-span-5 row-span-3 relative rounded-3xl overflow-hidden shadow-2xl tilt">
+            <img src="https://images.unsplash.com/photo-1578637387939-43c525550085?auto=format&fit=crop&w=900&q=80" alt="Mt Fuji" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-excel-darker/55 to-transparent"></div>
+            <div class="absolute bottom-4 left-5 text-white">
+              <div class="font-jp text-base font-bold opacity-90">日本</div>
+              <div class="font-display font-bold text-lg">Tokyo · Kyoto · Osaka</div>
+            </div>
+          </div>
+          <div class="col-span-3 row-span-2 relative rounded-3xl overflow-hidden shadow-xl tilt">
+            <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=600&q=80" alt="Tokyo skyline" class="w-full h-full object-cover" />
+          </div>
+          <div class="col-span-2 row-span-2 relative rounded-3xl overflow-hidden shadow-xl tilt flex items-center justify-center text-white text-center" style="background: radial-gradient(circle at 30% 30%, #84d05a 0%, #5BAB2C 40%, #1F4D2C 100%);">
+            <div>
+              <div class="font-jp text-3xl font-black">合格</div>
+              <div class="font-display font-bold text-sm mt-1">98% Pass</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <span class="tag-pill">Primary destination · 主な渡航先</span>
+        <h2 class="section-title text-4xl md:text-5xl mt-5">Japan as a Destination<br/>for <span class="text-gradient">Higher Education</span></h2>
+        <p class="text-gray-700 mt-6 leading-relaxed text-lg">Japan has one of the most influential positions in global business and technology. Japanese-language education creates employment opportunities with multinational companies around the world.</p>
+        <p class="text-gray-700 mt-4 leading-relaxed">Japan is currently at the top of the list for students seeking higher education worldwide. Considering Japan's advanced education system, learning environment, culture and climate — students' interest will continue to grow.</p>
+        <p class="text-gray-700 mt-4 leading-relaxed">Various scholarships and tuition discounts are available — under government, NGO and university scholarship schemes, students can continue studies completely free of cost.</p>
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <h3 class="font-display text-2xl font-bold text-excel-dark text-center reveal">Why Study in Japan</h3>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+        <div class="card tilt p-6 reveal flex items-start gap-3"><div class="icon-badge-light !w-12 !h-12 shrink-0"><i class="fa-solid fa-graduation-cap"></i></div><div><div class="font-display font-bold text-excel-dark">Standard Education</div><p class="text-sm text-gray-600 mt-1">Highly affordable cost in a well-secured environment.</p></div></div>
+        <div class="card tilt p-6 reveal flex items-start gap-3"><div class="icon-badge-light !w-12 !h-12 shrink-0"><i class="fa-solid fa-coins"></i></div><div><div class="font-display font-bold text-excel-dark">Cheaper than EU/US</div><p class="text-sm text-gray-600 mt-1">Universities much more economical than European or North American.</p></div></div>
+        <div class="card tilt p-6 reveal flex items-start gap-3"><div class="icon-badge-light !w-12 !h-12 shrink-0"><i class="fa-solid fa-passport"></i></div><div><div class="font-display font-bold text-excel-dark">Easier Visa</div><p class="text-sm text-gray-600 mt-1">Government keen on 300,000+ foreign students.</p></div></div>
+        <div class="card tilt p-6 reveal flex items-start gap-3"><div class="icon-badge-light !w-12 !h-12 shrink-0"><i class="fa-solid fa-money-bill-trend-up"></i></div><div><div class="font-display font-bold text-excel-dark">No Embassy Fee</div><p class="text-sm text-gray-600 mt-1">Free of embassy charges for Bangladeshi students.</p></div></div>
+        <div class="card tilt p-6 reveal flex items-start gap-3"><div class="icon-badge-light !w-12 !h-12 shrink-0"><i class="fa-solid fa-briefcase"></i></div><div><div class="font-display font-bold text-excel-dark">Part-Time Jobs</div><p class="text-sm text-gray-600 mt-1">Up to 28 hours/week part-time legally.</p></div></div>
+        <div class="card tilt p-6 reveal flex items-start gap-3"><div class="icon-badge-light !w-12 !h-12 shrink-0"><i class="fa-solid fa-house-flag"></i></div><div><div class="font-display font-bold text-excel-dark">Permanent Settlement</div><p class="text-sm text-gray-600 mt-1">Path to job and residency after study.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== UK ============== -->
+<section id="uk" class="py-24 bg-excel-light relative overflow-hidden">
+  <div class="absolute top-12 right-8 opacity-10 text-[10rem] font-display font-black select-none hidden md:block leading-none">UK</div>
+  <div class="max-w-7xl mx-auto px-6 relative">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="reveal-left order-2 md:order-1">
+        <span class="tag-pill">Secondary destination</span>
+        <h2 class="section-title text-4xl md:text-5xl mt-5">United Kingdom — <span class="text-gradient">Worldwide Recognition</span></h2>
+        <p class="text-gray-700 mt-6 leading-relaxed text-lg">The UK has become one of the top destinations to study around the world. Traditions of excellence dating back hundreds of years, high-class institutions on every corner, and far more flexibility than many other countries.</p>
+        <p class="text-gray-700 mt-4 leading-relaxed">The UK is the second-most popular destination for international students after the US. EETC partners with several London-based and regional UK institutions for student admissions.</p>
+      </div>
+      <div class="reveal-right order-1 md:order-2">
+        <div class="grid grid-cols-5 grid-rows-5 gap-3" style="aspect-ratio: 5/6;">
+          <div class="col-span-5 row-span-3 relative rounded-3xl overflow-hidden shadow-2xl tilt">
+            <img src="https://images.unsplash.com/photo-1486299267070-83823f5448dd?auto=format&fit=crop&w=900&q=80" alt="London" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-excel-darker/55 to-transparent"></div>
+            <div class="absolute bottom-4 left-5 text-white">
+              <div class="font-display font-bold text-lg">London · Cardiff · Manchester</div>
+            </div>
+          </div>
+          <div class="col-span-3 row-span-2 relative rounded-3xl overflow-hidden shadow-xl tilt">
+            <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=600&q=80" alt="UK university" class="w-full h-full object-cover" />
+          </div>
+          <div class="col-span-2 row-span-2 relative rounded-3xl overflow-hidden shadow-xl tilt flex items-center justify-center text-white text-center" style="background: linear-gradient(135deg, #012169 0%, #C8102E 100%);">
+            <div>
+              <div class="text-3xl font-black">UK</div>
+              <div class="font-display font-bold text-sm mt-1">10+ Partners</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-globe"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Worldwide Recognition</h3><p class="text-gray-600 text-sm mt-2">Degrees from UK institutions — Oxford, Cambridge, BPP, Cardiff and more — are world-class.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-clock"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Shorter Programs</h3><p class="text-gray-600 text-sm mt-2">Most degrees 3 years, masters 1–2 years — saves money vs. US schools.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-briefcase"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Work Opportunities</h3><p class="text-gray-600 text-sm mt-2">International students may work up to 20 hours/week during term, full-time during holidays.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-award"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Scholarships & Loans</h3><p class="text-gray-600 text-sm mt-2">Many scholarships and loan programs available to international students.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-train"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Gateway to Europe</h3><p class="text-gray-600 text-sm mt-2">Channel Tunnel and budget airlines — most of Europe within hours.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-people-group"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Multicultural Nation</h3><p class="text-gray-600 text-sm mt-2">Open to all religions, races and traditions — perfect for international students.</p></div>
+      </div>
+    </div>
+
+    <div class="mt-12 reveal">
+      <h3 class="font-display text-xl font-bold text-excel-dark">Our UK Partner Institutions</h3>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mt-5 text-sm">
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• BPP University College of Professional Studies</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• Cardiff University</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• University of Wales</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• London College of Advanced Studies</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• London College of Business & Computing</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• London College of Management Studies</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• London School of Business and Finance</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• London School of Business and Management</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• Maritime Greenwich College</div>
+        <div class="bg-white rounded-xl p-4 border border-gray-100">• Holborn College</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== AUSTRALIA ============== -->
+<section id="australia" class="py-24 bg-white relative overflow-hidden">
+  <div class="absolute top-12 right-8 opacity-10 text-[10rem] font-display font-black select-none hidden md:block leading-none">AU</div>
+  <div class="max-w-7xl mx-auto px-6 relative">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="reveal-left">
+        <div class="grid grid-cols-5 grid-rows-5 gap-3" style="aspect-ratio: 5/6;">
+          <div class="col-span-5 row-span-3 relative rounded-3xl overflow-hidden shadow-2xl tilt">
+            <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=900&q=80" alt="Sydney" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-gradient-to-t from-excel-darker/55 to-transparent"></div>
+            <div class="absolute bottom-4 left-5 text-white">
+              <div class="font-display font-bold text-lg">Sydney · Melbourne · Brisbane</div>
+            </div>
+          </div>
+          <div class="col-span-3 row-span-2 relative rounded-3xl overflow-hidden shadow-xl tilt">
+            <img src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=80" alt="Australia outback" class="w-full h-full object-cover" />
+          </div>
+          <div class="col-span-2 row-span-2 relative rounded-3xl overflow-hidden shadow-xl tilt flex items-center justify-center text-white text-center" style="background: linear-gradient(135deg, #00843D 0%, #FFCD00 100%);">
+            <div>
+              <div class="text-3xl font-black">AU</div>
+              <div class="font-display font-bold text-sm mt-1">Diverse</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <span class="tag-pill">Secondary destination</span>
+        <h2 class="section-title text-4xl md:text-5xl mt-5">Australia — <span class="text-gradient">Heart of Diversity</span></h2>
+        <p class="text-gray-700 mt-6 leading-relaxed text-lg">Australia ranks among the best study destinations in the world — competing aggressively with the US and the UK and winning on many fronts.</p>
+        <p class="text-gray-700 mt-4 leading-relaxed">Graduates of Australian universities are highly sought after by employers worldwide for their practical training and high level of knowledge. Just as EETC offers a holistic approach to education, this culture is replicated across Australian higher education institutions.</p>
+        <p class="text-gray-700 mt-4 leading-relaxed">The country has embraced cultural, political and religious diversity — international students attest to the friendly nature of Australian people.</p>
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-toolbox"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Vocational Training</h3><p class="text-gray-600 text-sm mt-2">Unique opportunity to develop technical skills for direct workplace entry.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-earth-oceania"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Cultural Diversity</h3><p class="text-gray-600 text-sm mt-2">People from all corners of the world live in Australia.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-coins"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Lower Cost</h3><p class="text-gray-600 text-sm mt-2">Cost of living lower than other top destinations like the US and UK.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-briefcase"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Work While Study</h3><p class="text-gray-600 text-sm mt-2">Students can work while studying — covers cost of living.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-medal"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Post-Study Work</h3><p class="text-gray-600 text-sm mt-2">Australian rules allow remaining and gaining work experience after graduation.</p></div>
+        <div class="card tilt p-6 reveal"><div class="icon-badge-light"><i class="fa-solid fa-graduation-cap"></i></div><h3 class="font-display font-bold mt-4 text-excel-dark">Holistic Education</h3><p class="text-gray-600 text-sm mt-2">Vocational, technical and academic training combined.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== Comparison ============== -->
+<section class="py-24 mesh-light relative">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center reveal max-w-3xl mx-auto">
+      <span class="tag-pill">Quick Comparison</span>
+      <h2 class="section-title center text-4xl md:text-5xl mt-5">All Three at a <span class="text-gradient">Glance</span></h2>
+    </div>
+    <div class="overflow-x-auto mt-12 reveal">
+      <table class="w-full text-left rounded-2xl overflow-hidden shadow-md bg-white">
+        <thead class="bg-excel-dark text-white">
+          <tr>
+            <th class="py-4 px-5 text-sm">Criterion</th>
+            <th class="py-4 px-5 text-sm">🇯🇵 Japan</th>
+            <th class="py-4 px-5 text-sm">🇬🇧 UK</th>
+            <th class="py-4 px-5 text-sm">🇦🇺 Australia</th>
+          </tr>
+        </thead>
+        <tbody class="text-sm">
+          <tr class="level-row border-t border-gray-100"><td class="py-4 px-5 font-semibold text-excel-dark">EETC focus</td><td class="py-4 px-5 text-excel-green font-semibold">Primary</td><td class="py-4 px-5 text-gray-600">Secondary</td><td class="py-4 px-5 text-gray-600">Secondary</td></tr>
+          <tr class="level-row border-t border-gray-100"><td class="py-4 px-5 font-semibold text-excel-dark">Cost level</td><td class="py-4 px-5">Affordable</td><td class="py-4 px-5">Higher (lower than US)</td><td class="py-4 px-5">Mid-high</td></tr>
+          <tr class="level-row border-t border-gray-100"><td class="py-4 px-5 font-semibold text-excel-dark">Embassy fee (BD)</td><td class="py-4 px-5 text-excel-green font-semibold">None</td><td class="py-4 px-5">Standard</td><td class="py-4 px-5">Standard</td></tr>
+          <tr class="level-row border-t border-gray-100"><td class="py-4 px-5 font-semibold text-excel-dark">Language test</td><td class="py-4 px-5">JLPT N5+ / JFT-Basic</td><td class="py-4 px-5">IELTS 6.0+</td><td class="py-4 px-5">IELTS 6.0+</td></tr>
+          <tr class="level-row border-t border-gray-100"><td class="py-4 px-5 font-semibold text-excel-dark">Part-time work</td><td class="py-4 px-5">28 hrs/week</td><td class="py-4 px-5">20 hrs/week</td><td class="py-4 px-5">48 hrs/fortnight</td></tr>
+          <tr class="level-row border-t border-gray-100"><td class="py-4 px-5 font-semibold text-excel-dark">Permanent residency</td><td class="py-4 px-5 text-excel-green">Strong path</td><td class="py-4 px-5">Possible</td><td class="py-4 px-5 text-excel-green">Strong path</td></tr>
+          <tr class="level-row border-t border-gray-100"><td class="py-4 px-5 font-semibold text-excel-dark">Partner schools</td><td class="py-4 px-5 text-excel-green font-semibold">30+</td><td class="py-4 px-5">10+</td><td class="py-4 px-5">Selective</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-24 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="rounded-3xl relative overflow-hidden p-10 md:p-16 reveal-zoom" style="background: linear-gradient(135deg, #143521 0%, #1F4D2C 50%, #5BAB2C 100%);">
+      <div class="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-white/10 blur-3xl"></div>
+      <div class="relative text-center text-white">
+        <h2 class="font-display text-4xl md:text-5xl font-extrabold">Not Sure Where to Apply?</h2>
+        <p class="mt-4 max-w-2xl mx-auto text-white/90 text-lg">Our counselors will assess your background and recommend the best country, university and program — for free.</p>
+        <a href="contact.html" class="inline-block mt-7 bg-white text-excel-dark px-7 py-3.5 rounded-xl font-bold hover:bg-excel-light transition magnetic">Talk to a Counselor</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-excel-black text-white pt-20 pb-6 relative overflow-hidden">
+  <div class="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-excel-green/10 blur-3xl"></div>
+  <div class="absolute -bottom-32 -right-20 w-96 h-96 rounded-full bg-excel-dark blur-3xl"></div>
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-5 gap-8 relative">
+    <div>
+      <img src="assets/img/logo.png" alt="EETC logo" class="h-12 bg-white p-2 rounded-xl" />
+      <p class="text-white/70 text-sm mt-5 leading-relaxed">Your trusted Japan-route agency since 2015.</p>
+      <div class="font-jp text-excel-green mt-3 font-bold">日本への扉</div>
+      <div class="flex items-center gap-2 mt-5 text-base">
+        <a href="#" class="w-9 h-9 rounded-full bg-white/5 hover:bg-excel-green flex items-center justify-center transition"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="w-9 h-9 rounded-full bg-white/5 hover:bg-excel-green flex items-center justify-center transition"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="w-9 h-9 rounded-full bg-white/5 hover:bg-excel-green flex items-center justify-center transition"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="w-9 h-9 rounded-full bg-white/5 hover:bg-excel-green flex items-center justify-center transition"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4 class="font-display font-bold text-excel-green mb-4">Services</h4>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="student-visa.html">Student Visa</a></li>
+        <li><a href="job-visa.html">Job Visa</a></li>
+        <li><a href="ssw-visa.html">SSW Visa</a></li>
+        <li><a href="business-visa.html">Business Visa</a></li>
+        <li><a href="services.html">All Services</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-display font-bold text-excel-green mb-4">Courses</h4>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="japanese.html#n5">JLPT N5</a></li>
+        <li><a href="japanese.html#n4">JLPT N4</a></li>
+        <li><a href="japanese.html#n3">JLPT N3</a></li>
+        <li><a href="japanese.html#nattest">NAT-TEST</a></li>
+        <li><a href="english.html">Pre-IELTS</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-display font-bold text-excel-green mb-4">Destinations</h4>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="countries.html#japan">🇯🇵 Japan</a></li>
+        <li><a href="countries.html#uk">🇬🇧 United Kingdom</a></li>
+        <li><a href="countries.html#australia">🇦🇺 Australia</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-display font-bold text-excel-green mb-4">Get in Touch</h4>
+      <ul class="space-y-3 text-sm text-white/80">
+        <li><i class="fa-solid fa-location-dot text-excel-green mr-2"></i>Graphics Building (1st Floor), 9/G, Motijheel C/A, Dhaka-1000</li>
+        <li><i class="fa-solid fa-phone text-excel-green mr-2"></i>01409993773-4</li>
+        <li><i class="fa-solid fa-envelope text-excel-green mr-2"></i><a href="mailto:info@eetcbd.com">info@eetcbd.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/10 mt-16 pt-6 text-center text-white/60 text-sm relative">&copy; 2025 Excel Education & Training Center. <span class="font-jp text-excel-green">ありがとうございます</span></div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

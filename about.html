@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>About Us — Excel Education & Training Center (EETC)</title>
+<meta name="description" content="Background, vision, mission and values of Excel Education & Training Center — serving students since 2015." />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={theme:{extend:{colors:{'excel-green':'#5BAB2C','excel-green-dark':'#4a8f24','excel-dark':'#1F4D2C','excel-black':'#1F1F1F','excel-light':'#f4faf0','excel-red':'#BC002D'},fontFamily:{sans:['Inter','sans-serif'],display:['Poppins','sans-serif'],jp:['Noto Sans JP','sans-serif']}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&family=Noto+Sans+JP:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="icon" type="image/png" href="assets/img/logo.png" />
+</head>
+<body class="antialiased">
+
+<div class="bg-excel-dark text-white text-sm hidden md:block">
+  <div class="max-w-7xl mx-auto px-6 py-2 flex items-center justify-between">
+    <div class="flex items-center gap-6">
+      <span><i class="fa-solid fa-phone mr-2 text-excel-green"></i>01409993773-4</span>
+      <span><i class="fa-solid fa-envelope mr-2 text-excel-green"></i>info@eetcbd.com</span>
+    </div>
+    <div class="flex items-center gap-3 text-white/80">
+      <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</div>
+
+<header id="site-header" class="bg-white sticky top-0 z-40 transition-shadow">
+  <div class="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3"><img src="assets/img/logo.png" alt="EETC logo" class="h-12 w-auto" /></a>
+    <nav class="hidden lg:flex items-center gap-7">
+      <a class="nav-link" data-page="index" href="index.html">Home</a>
+      <a class="nav-link" data-page="about" href="about.html">About</a>
+      <div class="relative group">
+        <button class="nav-link flex items-center gap-1">Services <i class="fa-solid fa-chevron-down text-xs"></i></button>
+        <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+          <div class="glass shadow-lg rounded-2xl w-64 p-2">
+            <a href="services.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm font-semibold">All Services</a>
+            <a href="student-visa.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">Student Visa (留学)</a>
+            <a href="job-visa.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">Job Visa</a>
+            <a href="ssw-visa.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">SSW Visa (特定技能)</a>
+            <a href="business-visa.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">Business Visa</a>
+          </div>
+        </div>
+      </div>
+      <div class="relative group">
+        <button class="nav-link flex items-center gap-1">Courses <i class="fa-solid fa-chevron-down text-xs"></i></button>
+        <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+          <div class="glass shadow-lg rounded-2xl w-64 p-2">
+            <a href="japanese.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">Japanese (N5–N1)</a>
+            <a href="english.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">English / Pre-IELTS</a>
+          </div>
+        </div>
+      </div>
+      <div class="relative group">
+        <button class="nav-link flex items-center gap-1">Destinations <i class="fa-solid fa-chevron-down text-xs"></i></button>
+        <div class="absolute left-0 top-full pt-3 hidden group-hover:block">
+          <div class="glass shadow-lg rounded-2xl w-64 p-2">
+            <a href="countries.html#japan" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">🇯🇵 Japan <span class="text-xs text-excel-green ml-1">Primary</span></a>
+            <a href="countries.html#uk" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">🇬🇧 United Kingdom</a>
+            <a href="countries.html#australia" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm">🇦🇺 Australia</a>
+            <a href="countries.html" class="block px-3 py-2 rounded-lg hover:bg-excel-light text-sm font-semibold mt-1 border-t border-gray-100 pt-2">Compare All</a>
+          </div>
+        </div>
+      </div>
+      <a class="nav-link" data-page="gallery" href="gallery.html">Gallery</a>
+      <a class="nav-link" data-page="faq" href="faq.html">FAQ</a>
+      <a class="nav-link" data-page="contact" href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="hidden lg:inline-flex btn-primary px-5 py-2.5 rounded-lg font-semibold text-sm">Free Consultation</a>
+    <button id="burger" class="lg:hidden text-2xl text-excel-dark"><i class="fa-solid fa-bars"></i></button>
+  </div>
+  <div id="mobile-menu" class="lg:hidden border-t border-gray-100 bg-white">
+    <div class="px-6 py-3 flex flex-col gap-3 text-sm">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="about.html">About</a>
+      <div class="text-xs uppercase tracking-wider text-gray-400 mt-2 font-semibold">Services</div>
+      <a class="nav-link" href="services.html">All Services</a>
+      <a class="nav-link" href="student-visa.html">Student Visa</a>
+      <a class="nav-link" href="job-visa.html">Job Visa</a>
+      <a class="nav-link" href="ssw-visa.html">SSW Visa</a>
+      <a class="nav-link" href="business-visa.html">Business Visa</a>
+      <div class="text-xs uppercase tracking-wider text-gray-400 mt-2 font-semibold">Courses</div>
+      <a class="nav-link" href="japanese.html">Japanese Language</a>
+      <a class="nav-link" href="english.html">English / Pre-IELTS</a>
+      <div class="text-xs uppercase tracking-wider text-gray-400 mt-2 font-semibold">Destinations</div>
+      <a class="nav-link" href="countries.html#japan">🇯🇵 Japan</a>
+      <a class="nav-link" href="countries.html#uk">🇬🇧 United Kingdom</a>
+      <a class="nav-link" href="countries.html#australia">🇦🇺 Australia</a>
+      <div class="text-xs uppercase tracking-wider text-gray-400 mt-2 font-semibold">More</div>
+      <a class="nav-link" href="gallery.html">Gallery</a>
+      <a class="nav-link" href="faq.html">FAQ</a>
+      <a class="nav-link" href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<!-- Page header -->
+<section class="hero-pattern py-16 md:py-20">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <span class="tag-pill">About Us</span>
+    <h1 class="font-display text-4xl md:text-5xl font-bold text-excel-dark mt-4">Improving Lives Through Academic Excellence</h1>
+    <p class="text-gray-600 mt-5 max-w-2xl mx-auto">A young, energetic team dedicated to authentic information, ethical leadership and long-term student success.</p>
+    <nav class="text-sm text-gray-500 mt-6">
+      <a href="index.html" class="hover:text-excel-green">Home</a> <span class="mx-2">/</span> <span class="text-excel-dark">About Us</span>
+    </nav>
+  </div>
+</section>
+
+<!-- Background -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
+    <div class="reveal">
+      <span class="tag-pill">Background</span>
+      <h2 class="section-title text-3xl md:text-4xl mt-4">Our Journey Since 2015</h2>
+      <p class="text-gray-700 mt-6 leading-relaxed">
+        Excel Education & Training Center (EETC) started its journey in 2015 as a business to improve lives through academic excellence.
+        From the very beginning, we hired IT professionals and trained them focusing on international market demand and supported them
+        for international work placement crossing national borders.
+      </p>
+      <p class="text-gray-700 mt-4 leading-relaxed">
+        In 2017, EETC inaugurated student visa support for both English speaking and non-English speaking countries and started processing
+        student visas in Japan and the UK.
+      </p>
+      <p class="text-gray-700 mt-4 leading-relaxed">
+        EETC has offered basic and advance Japanese Language courses, IELTS and pre-IELTS courses — pre-requisites for higher study —
+        and has assisted students in getting visas to study abroad.
+      </p>
+      <div class="grid grid-cols-3 gap-4 mt-8">
+        <div class="bg-excel-light p-5 rounded-xl text-center">
+          <div class="text-3xl font-bold text-excel-dark">11</div>
+          <div class="text-xs text-gray-600 mt-1">Engineers Placed</div>
+        </div>
+        <div class="bg-excel-light p-5 rounded-xl text-center">
+          <div class="text-3xl font-bold text-excel-dark">100+</div>
+          <div class="text-xs text-gray-600 mt-1">Students Sent</div>
+        </div>
+        <div class="bg-excel-light p-5 rounded-xl text-center">
+          <div class="text-3xl font-bold text-excel-dark">30+</div>
+          <div class="text-xs text-gray-600 mt-1">Partner Schools</div>
+        </div>
+      </div>
+    </div>
+    <div class="reveal">
+      <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=900&q=80"
+           alt="EETC office" class="rounded-2xl shadow-xl" />
+    </div>
+  </div>
+</section>
+
+<!-- Management Message -->
+<section class="py-16 bg-excel-light">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+    <div class="reveal">
+      <img src="assets/img/profile.jpg" alt="Management" class="rounded-2xl shadow-xl w-full" />
+      <div class="text-center mt-4">
+        <div class="font-display font-semibold text-excel-dark">EETC Management</div>
+        <div class="text-sm text-gray-500">Excel Education & Training Center</div>
+      </div>
+    </div>
+    <div class="md:col-span-2 reveal">
+      <span class="tag-pill">Message from Management</span>
+      <h2 class="section-title text-3xl md:text-4xl mt-4">"Together We Achieve MORE"</h2>
+      <p class="text-gray-700 mt-6 leading-relaxed">
+        We envision that only quality education can improve the family and the nation. The young educated students are the backbone of a nation,
+        and many of them are experiencing high scarcity of quality higher education. Sending proper students to proper foreign universities benefits our nation.
+      </p>
+      <p class="text-gray-700 mt-4 leading-relaxed">
+        EETC delivers a truly global experience and helps you to think globally and compete strategically in any economy.
+        We strongly contemplate that education entrepreneurship is not only a business — rather it is a noble profession of serving the country
+        and the globe with thriving human resources as an asset, instead of family and social burden.
+      </p>
+      <p class="text-gray-700 mt-4 leading-relaxed">
+        Our partnership model is long-term, aligning with our vision, mission and objectives. We are working as a dedicated mason to build our nation educated.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Vision / Mission / Strength -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card p-8 reveal">
+        <div class="icon-badge"><i class="fa-solid fa-eye text-xl"></i></div>
+        <h3 class="font-display text-2xl font-semibold mt-5 text-excel-dark">Our Vision</h3>
+        <p class="text-gray-700 mt-3 leading-relaxed">
+          To build a solid business domain from where we can provide the best Japanese & English language training and visa support
+          across the country — and contribute to the betterment of Bangladesh.
+        </p>
+      </div>
+      <div class="card p-8 reveal">
+        <div class="icon-badge"><i class="fa-solid fa-bullseye text-xl"></i></div>
+        <h3 class="font-display text-2xl font-semibold mt-5 text-excel-dark">Our Mission</h3>
+        <p class="text-gray-700 mt-3 leading-relaxed">
+          To provide the best Japanese & English language training along with the best visa processing service to people of Bangladesh,
+          irrespective of where they live or what is their academic background — through unparalleled service, professional advice and innovative communication.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-14 reveal">
+      <span class="tag-pill">Strength & Collaboration</span>
+      <h2 class="section-title text-3xl md:text-4xl mt-4">Built for a Globally Connected World</h2>
+      <div class="grid md:grid-cols-2 gap-8 mt-6">
+        <p class="text-gray-700 leading-relaxed">
+          EETC operates in a highly competitive market and ensures implementation of service standards according to global demand.
+          As we live in a global village where information technology has reached an excel level, higher study abroad has become a common
+          phenomenon for both elite and middle class people in Bangladesh.
+        </p>
+        <p class="text-gray-700 leading-relaxed">
+          Japan and the UK have opened their immigration doors to welcome professionals and international students to minimize the labor gap.
+          Bangladesh can grab this opportunity for mutual long-term benefits — Japan & UK need working-aged people and Bangladesh needs a knowledge-based population.
+        </p>
+      </div>
+
+      <div class="mt-8 grid sm:grid-cols-2 gap-4">
+        <div class="flex items-start gap-3 p-4 bg-excel-light rounded-xl">
+          <i class="fa-solid fa-circle-check text-excel-green mt-1 text-lg"></i>
+          <span class="text-sm text-gray-800">Clearly articulated over-arching strategy</span>
+        </div>
+        <div class="flex items-start gap-3 p-4 bg-excel-light rounded-xl">
+          <i class="fa-solid fa-circle-check text-excel-green mt-1 text-lg"></i>
+          <span class="text-sm text-gray-800">Visible and meaningful executive engagement</span>
+        </div>
+        <div class="flex items-start gap-3 p-4 bg-excel-light rounded-xl">
+          <i class="fa-solid fa-circle-check text-excel-green mt-1 text-lg"></i>
+          <span class="text-sm text-gray-800">Strategic planning with financial consideration</span>
+        </div>
+        <div class="flex items-start gap-3 p-4 bg-excel-light rounded-xl">
+          <i class="fa-solid fa-circle-check text-excel-green mt-1 text-lg"></i>
+          <span class="text-sm text-gray-800">Collaborative iteration with line management</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Values -->
+<section class="py-16 bg-excel-light">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center reveal">
+      <span class="tag-pill">Our Values</span>
+      <h2 class="section-title center text-3xl md:text-4xl mt-4">What We Stand For</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
+      <div class="card p-7 reveal">
+        <div class="icon-badge"><i class="fa-solid fa-door-open text-xl"></i></div>
+        <h3 class="font-display font-semibold text-lg mt-5 text-excel-dark">Easy Access to Service</h3>
+        <p class="text-gray-600 text-sm mt-2">Everything we offer is easy to understand and follow. We exist to make our students' careers brighter.</p>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="icon-badge"><i class="fa-solid fa-handshake text-xl"></i></div>
+        <h3 class="font-display font-semibold text-lg mt-5 text-excel-dark">Keep Promises</h3>
+        <p class="text-gray-600 text-sm mt-2">We have an unwritten agreement with our students — service transparency at every stage.</p>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="icon-badge"><i class="fa-solid fa-lightbulb text-xl"></i></div>
+        <h3 class="font-display font-semibold text-lg mt-5 text-excel-dark">Be Inspiring</h3>
+        <p class="text-gray-600 text-sm mt-2">We deliver creative solutions that prepare students to confront future challenges.</p>
+      </div>
+      <div class="card p-7 reveal">
+        <div class="icon-badge"><i class="fa-solid fa-heart text-xl"></i></div>
+        <h3 class="font-display font-semibold text-lg mt-5 text-excel-dark">Be Respectful</h3>
+        <p class="text-gray-600 text-sm mt-2">Mutual respect is the key for staff and client satisfaction.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why EETC additional -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="reveal">
+      <span class="tag-pill">Why EETC</span>
+      <h2 class="section-title text-3xl md:text-4xl mt-4">Qualities That Make Us Unique</h2>
+      <p class="text-gray-700 mt-5 max-w-3xl">
+        EETC is extremely committed to ensuring proper service to our respectful applicants. We always believe in maintaining
+        effective communication with our potential clients and building rapport with existing ones. We never breach our commitment, agreement, rules or regulations.
+      </p>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">No file opening charge</span></div>
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">No service charge for counseling</span></div>
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">Never quit relationship after admission</span></div>
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">Try to provide a scholarship</span></div>
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">Maintain effective communication</span></div>
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">Fast and flexible procedure</span></div>
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">Free and friendly advice opportunities</span></div>
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">Collaborated with well-ranked universities</span></div>
+      <div class="flex items-start gap-3 p-5 bg-excel-light rounded-xl reveal"><i class="fa-solid fa-check text-excel-green text-lg mt-1"></i><span class="text-gray-800">Outstanding reviews from previous students</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Partners -->
+<section class="py-16 bg-excel-dark text-white">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="text-center reveal">
+      <span class="tag-pill bg-white/15 text-white">Our Partners</span>
+      <h2 class="font-display text-3xl md:text-4xl font-bold mt-4">Partner Schools & Universities</h2>
+      <p class="text-white/80 max-w-2xl mx-auto mt-4">A growing network of prestigious institutions across Japan and the United Kingdom.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-10 mt-12">
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-7 reveal">
+        <div class="flex items-center gap-3 mb-5">
+          <i class="fa-solid fa-torii-gate text-3xl text-excel-green"></i>
+          <h3 class="font-display text-2xl font-semibold">Partner Schools in Japan</h3>
+        </div>
+        <ul class="space-y-2 text-sm text-white/85">
+          <li>• AN Language School — Tokyo</li>
+          <li>• Basic Japanese Language Institute — Osaka</li>
+          <li>• Nippon Language Academy — Gunma Ken</li>
+          <li>• Kyoritsu Foundation Japanese Language Academy — Tokyo</li>
+          <li>• Shinjuku International Exchange School — Tokyo</li>
+          <li>• Tokyo University of Social Welfare — Tokyo & Nagoya</li>
+          <li>• Subaru Language School — Gifu</li>
+          <li>• IC Nagoya Language School — Nagoya</li>
+          <li>• Tokyo International Language Academy — Tokyo</li>
+          <li>• Tokyo International Exchange College — Tokyo</li>
+          <li>• Unitas Japanese Language School — Kofu (main) & Tokyo</li>
+          <li>• Air College of Foreign Languages — Niigata</li>
+          <li>• Kurume Institute of Intl. Relations — Kurume, Fukuoka</li>
+          <li>• Kyoto Japanese Language Centre — Kyoto</li>
+          <li>• International Study Institute (ISI) — Tokyo</li>
+          <li>• Advance Academy of Japanese Language — Nagoya</li>
+          <li>• Japan Institute of Culture & Economics — Naha, Okinawa</li>
+          <li>• Tokyo International Japanese School — Tokyo</li>
+        </ul>
+      </div>
+      <div class="bg-white/5 border border-white/10 rounded-2xl p-7 reveal">
+        <div class="flex items-center gap-3 mb-5">
+          <i class="fa-solid fa-landmark text-3xl text-excel-green"></i>
+          <h3 class="font-display text-2xl font-semibold">Associated Institutes — UK & Japan</h3>
+        </div>
+        <ul class="space-y-2 text-sm text-white/85">
+          <li>• BPP University College of Professional Studies</li>
+          <li>• Cardiff University</li>
+          <li>• University of Wales</li>
+          <li>• London College of Advanced Studies</li>
+          <li>• London College of Business & Computing</li>
+          <li>• London College of Management Studies</li>
+          <li>• London School of Business and Finance</li>
+          <li>• London School of Business and Management</li>
+          <li>• Maritime Greenwich College</li>
+          <li>• Holborn College</li>
+          <li class="pt-3 border-t border-white/10 mt-3">• Teikyo University</li>
+          <li>• Niigata University of Health and Welfare</li>
+          <li>• Human International University Japan</li>
+          <li>• Teikyo Heisei University</li>
+          <li>• Teikyo University of Science</li>
+          <li>• Niigata Institute of Technology</li>
+          <li>• Kyoto Computer Gakuin & College of Graduate Studies for Informatics</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-excel-black text-white pt-16 pb-6">
+  <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+    <div>
+      <img src="assets/img/logo.png" alt="EETC logo" class="h-12 bg-white p-2 rounded" />
+      <p class="text-white/70 text-sm mt-5 leading-relaxed">Excel Education & Training Center — your trusted Japan-route agency since 2015.</p>
+      <div class="font-jp text-excel-green mt-3">日本への扉</div>
+      <div class="flex items-center gap-3 mt-5 text-lg">
+        <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="hover:text-excel-green"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div>
+      <h4 class="font-display font-semibold text-excel-green mb-4">Services</h4>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="student-visa.html">Student Visa</a></li>
+        <li><a href="job-visa.html">Job Visa</a></li>
+        <li><a href="ssw-visa.html">SSW Visa</a></li>
+        <li><a href="business-visa.html">Business Visa</a></li>
+        <li><a href="services.html">All Services</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-display font-semibold text-excel-green mb-4">Courses</h4>
+      <ul class="space-y-2 text-sm text-white/80">
+        <li><a href="japanese.html#n5">JLPT N5</a></li>
+        <li><a href="japanese.html#n4">JLPT N4</a></li>
+        <li><a href="japanese.html#n3">JLPT N3</a></li>
+        <li><a href="japanese.html#nattest">NAT-TEST</a></li>
+        <li><a href="english.html">Pre-IELTS</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-display font-semibold text-excel-green mb-4">Get in Touch</h4>
+      <ul class="space-y-3 text-sm text-white/80">
+        <li><i class="fa-solid fa-location-dot text-excel-green mr-2"></i>Graphics Building (1st Floor), 9/G, Motijheel C/A, Dhaka-1000</li>
+        <li><i class="fa-solid fa-phone text-excel-green mr-2"></i>01409993773-4</li>
+        <li><i class="fa-solid fa-envelope text-excel-green mr-2"></i><a href="mailto:info@eetcbd.com">info@eetcbd.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-white/10 mt-12 pt-6 text-center text-white/60 text-sm">&copy; 2025 Excel Education & Training Center. <span class="font-jp">ありがとうございます</span></div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
